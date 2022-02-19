@@ -43,9 +43,12 @@ public class Main {
 
 
             devDoni.progredir();
+            devDoni.progredir();
         System.out.println("--");
             System.out.println("Conteudos Inscritos Doni:" +devDoni.getConteudosInscritos());
             System.out.println("Conteudos Concluidos Doni:" +devDoni.getConteudosConcluidos());
+            System.out.println("XP:" + devDoni.CalcularTotalXp());
+
 
         System.out.println("------");
 
@@ -53,9 +56,11 @@ public class Main {
         devCamila.setNome("Camila");
         devCamila.inscreverBootcamp(bootCamp);
         devCamila.progredir();
+        devCamila.progredir();
+        devCamila.progredir();
         System.out.println("Conteudos Inscritos Camila:" +devCamila.getConteudosInscritos());
         System.out.println("Conteudos Concluidos Camila:" +devCamila.getConteudosConcluidos());
-
+        System.out.println("XP:" + devCamila.CalcularTotalXp());
     }
     }
 
